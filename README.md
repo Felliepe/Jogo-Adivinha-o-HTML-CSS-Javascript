@@ -1,29 +1,21 @@
-Guessing Game
-Overview
-This is a simple guessing game implemented in HTML, CSS, and JavaScript. The game generates a random number between 1 and 100, and the player has ten chances to guess the correct number. After each guess, the game provides feedback on whether the guess is too high, too low, or correct. The game also keeps track of previous guesses.
+<h1>Jogo De Adivinhação</h1>
 
-How to Play
-Open the index.html file in a web browser.
-Enter your guess in the input field.
-Click the "Enviar palpite" (Submit Guess) button to submit your guess.
-Receive feedback on your guess and continue until you either guess the correct number or run out of attempts.
-Game Logic
-The random number is generated using Math.random() and is a whole number between 1 and 100.
-The game provides feedback on each guess, indicating whether it's too high, too low, or correct.
-After ten incorrect guesses, the game ends, and a message is displayed.
-Files
-index.html: Contains the structure of the web page and the input form for submitting guesses.
-javs.js: Contains the JavaScript code for the game logic.
-stilo.css: Contains the CSS styling for the web page.
-Styling
-The game has a simple style with a background color and specific styling for correct and incorrect guesses.
+> Condição: **Finalizado** ✔️
 
-Development
-Feel free to explore and modify the code to enhance the game or adapt it to your preferences. If you have suggestions or improvements, please contribute!
+## Visão geral:
+Este é um jogo de adivinhação simples implementado em HTML, CSS e JavaScript. O jogo gera um número aleatório entre 1 e 100, e o jogador tem dez chances de adivinhar o número correto. Após cada palpite, o jogo fornece feedback sobre se o palpite é muito alto, muito baixo ou correto. O jogo também acompanha suposições anteriores.
 
-This README provides a brief overview of the game, instructions on how to play, information about the game logic, and details about the files and styling. Feel free to customize it further based on your specific needs or add more details as necessary.
+## Como jogar:
+Abra o arquivo index.html em um navegador da web. Digite seu palpite no campo de entrada. Clique no botão "Enviar palpite" (Enviar palpite) para enviar seu palpite. Receba feedback sobre seu palpite e continue até adivinhar o número correto ou ficar sem tentativas.
 
+## Lógica do jogo:
+O número aleatório é gerado usando Math.random() e é um número inteiro entre 1 e 100. O jogo fornece feedback sobre cada palpite, indicando se é muito alto, muito baixo ou correto. Após dez palpites incorretos, o jogo termina e uma mensagem é exibida.
 
+## Arquivos:
+index.html: Contém a estrutura da página web e o formulário de entrada para envio de palpites. javs.js: Contém o código JavaScript para a lógica do jogo. stilo.css: Contém o estilo CSS da página da web.
 
+## Estilo:
+O jogo possui um estilo simples com uma cor de fundo e estilo específico para palpites corretos e incorretos.
 
-
+## Desenvolvimento:
+Se tiver sugestões ou melhorias, por favor, contribua!
